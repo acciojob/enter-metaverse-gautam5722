@@ -3,6 +3,6 @@ const displayCode = document.getElementById("status");
 const btn = document.getElementById("enterBtn");
 
 
-btn.addEventListener('click', () => {
-	displayCode.outerHTML = '<h1>Entered Metaverse</h1>';
+btn.addEventListener('click', () => { 
+	displayCode.outerHTML = '<h1 id="status">Entered Metaverse';
 });
