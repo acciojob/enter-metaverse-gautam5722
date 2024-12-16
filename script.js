@@ -1,8 +1,8 @@
-//your JS code here. If required.
-const displayCode = document.getElementById("status");
-const btn = document.getElementById("enterBtn");
+document.addEventListener('DOMContentLoaded', () => {
+  const enterButton = document.getElementById('enterBtn');
+  const paragraph = document.getElementById('status');
 
-
-btn.addEventListener('click', () => { 
-	displayCode.outerHTML = '<h1 id="status">Entered Metaverse';
+  enterButton.addEventListener('click', () => {
+    paragraph.innerHTML = '<h1>Entered Metaverse</h1>';
+  });
 });
