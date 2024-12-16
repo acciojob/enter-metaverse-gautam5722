@@ -4,5 +4,5 @@ const btn = document.getElementById("enterBtn");
 
 
 btn.addEventListener('click', () => {
-	displayCode.outerHTML = '<h1 id="status">Entered Metaverse</h1>;
-})
+	displayCode.outerHTML = '<h1 id="status">Entered Metaverse</h1>';
+});
